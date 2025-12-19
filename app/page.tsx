@@ -121,28 +121,28 @@ const portfolioData = {
   education: [
     {
       id: '1',
-      institution: 'St. Mary\'s School',
-      degree: '10th Grade',
-      field: 'Board of Examination',
-      startDate: '2017',
-      endDate: '2018',
+      institution: 'Tender Heart Sr. Sec. School',
+      degree: '10th Grade (85.5%)',
+      field: 'Science',
+      startDate: '2016',
+      endDate: '2017',
       location: 'India',
       type: 'primary'
     },
     {
       id: '2',
-      institution: 'St. Mary\'s School',
-      degree: '12th Grade',
-      field: 'Board of Examination',
+      institution: 'Tender Heart Sr. Sec. School',
+      degree: '12th Grade (82%)',
+      field: 'PCM',
       startDate: '2018',
-      endDate: '2020',
+      endDate: '2019',
       location: 'India',
       type: 'secondary'
     },
     {
       id: '3',
       institution: 'Chandigarh University',
-      degree: 'Bachelor of Engineering',
+      degree: 'Bachelor of Engineering (7.4 cgpa)',
       field: 'Computer Science and Engineering',
       startDate: 'September 2020',
       endDate: 'May 2024',
