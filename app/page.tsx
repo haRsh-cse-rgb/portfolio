@@ -106,12 +106,33 @@ const portfolioData = {
   education: [
     {
       id: '1',
+      institution: 'St. Mary\'s School',
+      degree: '10th Grade',
+      field: 'Board of Examination',
+      startDate: '2017',
+      endDate: '2018',
+      location: 'India',
+      type: 'primary'
+    },
+    {
+      id: '2',
+      institution: 'St. Mary\'s School',
+      degree: '12th Grade',
+      field: 'Board of Examination',
+      startDate: '2018',
+      endDate: '2020',
+      location: 'India',
+      type: 'secondary'
+    },
+    {
+      id: '3',
       institution: 'Chandigarh University',
       degree: 'Bachelor of Engineering',
       field: 'Computer Science and Engineering',
       startDate: 'September 2020',
       endDate: 'May 2024',
-      location: 'Chandigarh, India'
+      location: 'Chandigarh, India',
+      type: 'university'
     }
   ],
   achievements: [
@@ -379,38 +400,68 @@ export default function Portfolio() {
       <section id="education" className="py-24 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Education</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Educational Journey</h2>
             <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto"></div>
           </div>
 
-          <div className="grid gap-6">
-            {portfolioData.education.map((edu) => (
-              <Card key={edu.id} className="border-l-4 border-l-cyan-500 shadow-lg hover:shadow-xl transition-all duration-300">
-                <CardHeader>
-                  <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
-                    <div>
-                      <CardTitle className="text-2xl text-slate-900 mb-2 flex items-center gap-2">
-                        <GraduationCap className="w-6 h-6 text-cyan-500 flex-shrink-0" />
-                        {edu.institution}
-                      </CardTitle>
-                      <CardDescription className="text-lg">
-                        {edu.degree} in {edu.field}
-                      </CardDescription>
-                    </div>
-                    <div className="text-right text-sm md:text-base">
-                      <div className="flex items-center gap-2 text-slate-500 mb-1 justify-end">
-                        <Calendar className="w-4 h-4" />
-                        <span className="font-medium">{edu.startDate} - {edu.endDate}</span>
-                      </div>
-                      <div className="flex items-center gap-2 text-slate-500 justify-end">
-                        <MapPin className="w-4 h-4" />
-                        <span>{edu.location}</span>
-                      </div>
-                    </div>
+          <div className="relative">
+            <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-cyan-400 via-blue-400 to-cyan-400 transform -translate-x-1/2"></div>
+
+            <div className="space-y-8 md:space-y-12">
+              {portfolioData.education.map((edu, index) => (
+                <div key={edu.id} className="relative">
+                  <div className="hidden md:flex absolute left-1/2 top-8 w-6 h-6 bg-white border-4 border-cyan-500 rounded-full transform -translate-x-1/2 -translate-y-1/2 shadow-lg">
+                    <div className="w-2 h-2 bg-cyan-500 rounded-full m-auto"></div>
                   </div>
-                </CardHeader>
-              </Card>
-            ))}
+
+                  <div className={`md:w-1/2 ${index % 2 === 0 ? 'md:ml-0 md:pr-12' : 'md:ml-auto md:pl-12'}`}>
+                    <Card className="shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                      <CardHeader>
+                        <div className="flex items-start gap-4">
+                          <div className={`p-3 rounded-lg ${
+                            edu.type === 'university' ? 'bg-blue-100' :
+                            edu.type === 'secondary' ? 'bg-cyan-100' :
+                            'bg-green-100'
+                          }`}>
+                            <GraduationCap className={`w-6 h-6 ${
+                              edu.type === 'university' ? 'text-blue-600' :
+                              edu.type === 'secondary' ? 'text-cyan-600' :
+                              'text-green-600'
+                            }`} />
+                          </div>
+                          <div className="flex-1">
+                            <CardTitle className="text-2xl text-slate-900 mb-1">
+                              {edu.degree}
+                            </CardTitle>
+                            <CardDescription className="text-lg font-medium text-slate-700 mb-2">
+                              {edu.institution}
+                            </CardDescription>
+                            <p className="text-slate-600 text-sm mb-3">{edu.field}</p>
+
+                            <div className="flex flex-wrap gap-4 text-sm text-slate-500">
+                              <div className="flex items-center gap-1">
+                                <Calendar className="w-4 h-4" />
+                                <span>{edu.startDate} - {edu.endDate}</span>
+                              </div>
+                              <div className="flex items-center gap-1">
+                                <MapPin className="w-4 h-4" />
+                                <span>{edu.location}</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </CardHeader>
+                    </Card>
+                  </div>
+
+                  {index < portfolioData.education.length - 1 && (
+                    <div className="md:hidden flex justify-center my-4">
+                      <div className="w-1 h-12 bg-gradient-to-b from-cyan-400 to-blue-400"></div>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
