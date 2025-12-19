@@ -30,7 +30,26 @@ const portfolioData = {
     phone: '+91 9572301358',
     linkedin: 'https://linkedin.com/in/kumar-harsh-b69035242',
     github: 'https://github.com/harsh-cse-rgb',
-    summary: 'Full Stack Developer with hands-on experience building production-grade systems using Spring Boot, React, Next.js, MongoDB, and AWS. Built and scaled platforms at Indian Institute of Science (IISc) and in startup environments. Strong interest in Generative AI, with experience integrating OpenAI, Google Gemini APIs, and LangChain for intelligent automation.',
+    summary: `I’m a Full Stack Software Engineer who enjoys building production-grade systems that scale, perform, and solve real problems.
+
+I’ve worked across startup and institutional environments, including Indian Institute of Science (IISc), Bengaluru, where I led end-to-end development of large-scale platforms used by 500+ real users, reducing manual operations by up to 90%. From architecting backend systems to crafting intuitive frontends, I like owning products from idea to deployment.
+
+Recently, I’ve been exploring Generative AI integrations—building AI-powered resume analysis, intelligent automation, and improving matching accuracy in real-world systems. I focus not just on using AI APIs, but on reliability, fallback handling, and measurable impact.
+
+I’m also the Founder & Developer of india-jobs.in, where I built a high-performance job aggregation platform with sub-second APIs, AI-based resume insights, and scalable AWS infrastructure.
+
+What drives me:
+
+Writing clean, maintainable code
+
+Designing systems that scale under real load
+
+Turning complex problems into simple, usable solutions
+
+Continuous learning across system design, cloud, and AI
+
+📌 Open to: Software Engineer / Full Stack Developer / Backend Developer / Frontend Developer / SDET roles
+📌 Interests: Backend systems, scalable web apps, cloud architecture, Generative AI`,
     location: 'Bengaluru, India'
   },
   skills: [
