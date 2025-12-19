@@ -587,7 +587,7 @@ export default function Portfolio() {
 
       <footer className="py-8 px-6 bg-slate-950 text-slate-400 text-center">
         <p>© {new Date().getFullYear()} {profile.name}. All rights reserved.</p>
-        <p className="text-sm mt-2">Built with Next.js, Tailwind CSS, and Supabase</p>
+        
       </footer>
 
       <style jsx global>{`
