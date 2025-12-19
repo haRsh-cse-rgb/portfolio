@@ -25,7 +25,7 @@ import { useState } from 'react';
 const portfolioData = {
   profile: {
     name: 'Kumar Harsh',
-    title: 'Full Stack Developer',
+    title: 'Full Stack Developer with AI Integration',
     email: 'kumarharshrivastava@gmail.com',
     phone: '+91 9572301358',
     linkedin: 'https://linkedin.com/in/kumar-harsh-b69035242',
