@@ -88,30 +88,31 @@ const portfolioData = {
     },
     {
       id: '3',
-      company: 'india-jobs.in',
-      position: 'Founder & Full Stack Engineer (Part-time)',
+      company: 'Freelance',
+      position: 'Freelance Full Stack Developer (Part-time)',
       location: 'Remote',
-      startDate: 'September 2025',
-      endDate: 'Present',
+      startDate: 'November 2025',
+      endDate: 'November 2025',
       description: [
         'Founded and built job aggregation platform delivering sub-second API responses for large-scale job filtering',
         'Developed AI-powered resume analysis system using Google Gemini API with 99.9% reliability',
         'Designed production-grade AWS infrastructure with optimized DynamoDB, CloudFront CDN, and horizontal scaling'
       ],
-      technologies: ['Next.js 14', 'TypeScript', 'Express.js', 'AWS', 'AWS Lambda', 'DynamoDB', 'S3', 'EC2', 'NGINX', 'Gemini API', 'Cursor'],
+      technologies: ['Next.js', 'Node.js', 'PWA', 'REST APIs', 'Express.js', 'Multer', 'Tailwind', 'Razorpay Integration', 'MongoDB', 'Cursor'],
       companyUrl: 'https://india-jobs.in'
     },
     {
       id: '4',
-      company: 'Freelance',
-      position: 'Freelance Full Stack Developer (Part-time)',
+      company: 'Intervue.io',
+      position: 'SDE Intern',
       location: 'Bengaluru, India',
       startDate: 'November 2025',
       endDate: 'December 2025',
       description: [
-       'Built a full-stack e-commerce platform using Next.js, TypeScript, and MongoDB, implementing product      management, cart, order processing, and an admin dashboard',
-'Integrated Razorpay payments (Online & COD), JWT-based authentication with OTP verification, and automated email notifications using Nodemailer',
-'Converted the platform into a Progressive Web App using Capacitor, enabling single-codebase deployment for Web, iOS, and Android'
+        'Automated rubric creation using OpenAI APIs, reducing manual effort by 75%',
+        'Engineered 15+ platform features including real-time assessment interfaces and user dashboards',
+        'Improved AI-driven skill matching accuracy from 65% to 72% through text normalization',
+        'Contributed to Agile development cycles with sprint planning and code reviews'
       ],
       technologies: ['Next.js', 'Node.js', 'PWA', 'REST APIs', 'Express.js', 'Multer', 'Tailwind', 'Razorpay Integration', 'MongoDB', 'Cursor'],
       companyUrl: 'https://intervue.io'
