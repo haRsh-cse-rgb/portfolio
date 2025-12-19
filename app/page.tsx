@@ -107,7 +107,7 @@ Continuous learning across system design, cloud, and AI
     },
     {
       id: '3',
-      company: 'Freelance',
+      company: 'Biharinath Organic Farms',
       position: 'Freelance Full Stack Developer (Part-time)',
       location: 'Remote',
       startDate: 'November 2025',
