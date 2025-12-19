@@ -102,7 +102,9 @@ Continuous learning across system design, cloud, and AI
   { id: '34', category: 'Programming Languages', name: 'Java', order: 1 },
   { id: '35', category: 'Programming Languages', name: 'JavaScript', order: 2 },
   { id: '36', category: 'Programming Languages', name: 'TypeScript', order: 3 },
-  { id: '37', category: 'Programming Languages', name: 'Python', order: 4 }
+  { id: '37', category: 'Programming Languages', name: 'Python', order: 4 },
+  { id: '38', category: 'AI & Tools', name: 'Cursor AI', order: 6 },
+  { id: '39', category: 'AI & Tools', name: 'Perplexity', order: 7 },
 ],
 
   experiences: [
