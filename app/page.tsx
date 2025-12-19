@@ -52,25 +52,59 @@ Continuous learning across system design, cloud, and AI
 📌 Interests: Backend systems, scalable web apps, cloud architecture, Generative AI`,
     location: 'Bengaluru, India'
   },
-  skills: [
-    { id: '1', category: 'Frontend', name: 'React', order: 1 },
-    { id: '2', category: 'Frontend', name: 'Next.js', order: 2 },
-    { id: '3', category: 'Frontend', name: 'TypeScript', order: 3 },
-    { id: '4', category: 'Frontend', name: 'Tailwind CSS', order: 4 },
-    { id: '5', category: 'Backend', name: 'Java', order: 1 },
-    { id: '6', category: 'Backend', name: 'Spring Boot', order: 2 },
-    { id: '7', category: 'Backend', name: 'Node.js', order: 3 },
-    { id: '8', category: 'Backend', name: 'REST APIs', order: 4 },
-    { id: '9', category: 'Databases', name: 'MongoDB', order: 1 },
-    { id: '10', category: 'Databases', name: 'DynamoDB', order: 2 },
-    { id: '11', category: 'Databases', name: 'Supabase', order: 3 },
-    { id: '12', category: 'Cloud & DevOps', name: 'AWS EC2', order: 1 },
-    { id: '13', category: 'Cloud & DevOps', name: 'Docker', order: 2 },
-    { id: '14', category: 'Cloud & DevOps', name: 'NGINX', order: 3 },
-    { id: '15', category: 'AI & Tools', name: 'OpenAI APIs', order: 1 },
-    { id: '16', category: 'AI & Tools', name: 'Google Gemini', order: 2 },
-    { id: '17', category: 'AI & Tools', name: 'LangChain', order: 3 }
-  ],
+ skills: [
+  // Frontend
+  { id: '1', category: 'Frontend', name: 'React', order: 1 },
+  { id: '2', category: 'Frontend', name: 'Next.js', order: 2 },
+  { id: '3', category: 'Frontend', name: 'JavaScript', order: 3 },
+  { id: '4', category: 'Frontend', name: 'TypeScript', order: 4 },
+  { id: '5', category: 'Frontend', name: 'Tailwind CSS', order: 5 },
+  { id: '6', category: 'Frontend', name: 'Leaflet.js', order: 6 },
+
+  // Backend
+  { id: '7', category: 'Backend', name: 'Java', order: 1 },
+  { id: '8', category: 'Backend', name: 'Spring Boot', order: 2 },
+  { id: '9', category: 'Backend', name: 'Spring Security', order: 3 },
+  { id: '10', category: 'Backend', name: 'Node.js', order: 4 },
+  { id: '11', category: 'Backend', name: 'Express.js', order: 5 },
+  { id: '12', category: 'Backend', name: 'REST APIs', order: 6 },
+  { id: '13', category: 'Backend', name: 'JWT Authentication', order: 7 },
+  { id: '14', category: 'Backend', name: 'WebSockets (STOMP)', order: 8 },
+
+  // Databases
+  { id: '15', category: 'Databases', name: 'MongoDB', order: 1 },
+  { id: '16', category: 'Databases', name: 'Amazon DynamoDB', order: 2 },
+  { id: '17', category: 'Databases', name: 'Supabase', order: 3 },
+
+  // Cloud & DevOps
+  { id: '18', category: 'Cloud & DevOps', name: 'AWS EC2', order: 1 },
+  { id: '19', category: 'Cloud & DevOps', name: 'AWS S3', order: 2 },
+  { id: '20', category: 'Cloud & DevOps', name: 'AWS CloudFront', order: 3 },
+  { id: '21', category: 'Cloud & DevOps', name: 'AWS CloudWatch', order: 4 },
+  { id: '22', category: 'Cloud & DevOps', name: 'Docker', order: 5 },
+  { id: '23', category: 'Cloud & DevOps', name: 'NGINX (Reverse Proxy)', order: 6 },
+
+  // Integrations & Platforms
+  { id: '24', category: 'Integrations', name: 'Razorpay Payments', order: 1 },
+  { id: '25', category: 'Integrations', name: 'Google Sheets API', order: 2 },
+  { id: '26', category: 'Integrations', name: 'Nodemailer', order: 3 },
+  { id: '27', category: 'Integrations', name: 'Service Workers', order: 4 },
+  { id: '28', category: 'Integrations', name: 'Progressive Web Apps (PWA)', order: 5 },
+
+  // Generative AI & Tools
+  { id: '29', category: 'AI & Tools', name: 'OpenAI APIs', order: 1 },
+  { id: '30', category: 'AI & Tools', name: 'Google Gemini APIs', order: 2 },
+  { id: '31', category: 'AI & Tools', name: 'LangChain', order: 3 },
+  { id: '32', category: 'AI & Tools', name: 'Prompt Engineering', order: 4 },
+  { id: '33', category: 'AI & Tools', name: 'AI Resume Parsing & Matching', order: 5 },
+
+  // Programming Languages
+  { id: '34', category: 'Programming Languages', name: 'Java', order: 1 },
+  { id: '35', category: 'Programming Languages', name: 'JavaScript', order: 2 },
+  { id: '36', category: 'Programming Languages', name: 'TypeScript', order: 3 },
+  { id: '37', category: 'Programming Languages', name: 'Python', order: 4 }
+]
+
   experiences: [
     {
       id: '1',
