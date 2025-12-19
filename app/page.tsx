@@ -326,9 +326,9 @@ export default function Portfolio() {
 
           <Card className="border-2 shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <CardContent className="p-8 md:p-12">
-              <p className="text-lg text-slate-700 leading-relaxed">
+              <div className="text-base md:text-lg text-slate-700 leading-relaxed whitespace-pre-wrap break-words">
                 {profile.summary}
-              </p>
+              </div>
             </CardContent>
           </Card>
         </div>
