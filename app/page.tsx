@@ -94,9 +94,9 @@ const portfolioData = {
       startDate: 'November 2025',
       endDate: 'November 2025',
       description: [
-        'Founded and built job aggregation platform delivering sub-second API responses for large-scale job filtering',
-        'Developed AI-powered resume analysis system using Google Gemini API with 99.9% reliability',
-        'Designed production-grade AWS infrastructure with optimized DynamoDB, CloudFront CDN, and horizontal scaling'
+        'Built a full-stack e-commerce platform using Next.js, TypeScript, and MongoDB, implementing product management, cart, order processing, and an admin dashboard',
+'Integrated Razorpay payments (Online & COD), JWT-based authentication with OTP verification, and automated email notifications using Nodemailer',
+'Converted the platform into a Progressive Web App using Capacitor, enabling single-codebase deployment for Web, iOS, and Android'
       ],
       technologies: ['Next.js', 'Node.js', 'PWA', 'REST APIs', 'Express.js', 'Multer', 'Tailwind', 'Razorpay Integration', 'MongoDB', 'Cursor'],
       companyUrl: 'https://india-jobs.in'
