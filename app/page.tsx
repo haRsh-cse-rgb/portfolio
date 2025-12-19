@@ -120,7 +120,7 @@ const portfolioData = {
   ],
   education: [
     {
-      id: '1',
+      id: '3',
       institution: 'Tender Heart Sr. Sec. School',
       degree: '10th Grade (85.5%)',
       field: 'Science',
@@ -140,7 +140,7 @@ const portfolioData = {
       type: 'secondary'
     },
     {
-      id: '3',
+      id: '1',
       institution: 'Chandigarh University',
       degree: 'Bachelor of Engineering (7.4 cgpa)',
       field: 'Computer Science and Engineering',
