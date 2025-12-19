@@ -68,7 +68,7 @@ const portfolioData = {
         'Implemented JWT-based authentication supporting 100+ concurrent users with sub-second latency',
         'Developed geospatial analytics platform mapping 2,500+ industrial plants across India'
       ],
-      technologies: ['Spring Boot', 'MongoDB', 'React', 'Next.js', 'WebSocket', 'JWT', 'Leaflet', 'Supabase'],
+      technologies: ['Spring Boot', 'MongoDB', 'React', 'Next.js', 'WebSocket', 'JWT', 'Leaflet', 'Supabase', 'NGINX', 'PM2', 'Cloudinary', 'AWS'],
       companyUrl: 'https://iisc.ac.in'
     },
     {
@@ -83,7 +83,7 @@ const portfolioData = {
         'Developed AI-powered resume analysis system using Google Gemini API with 99.9% reliability',
         'Designed production-grade AWS infrastructure with optimized DynamoDB, CloudFront CDN, and horizontal scaling'
       ],
-      technologies: ['Next.js 14', 'TypeScript', 'Express.js', 'AWS', 'DynamoDB', 'S3', 'EC2', 'NGINX'],
+      technologies: ['Next.js 14', 'TypeScript', 'Express.js', 'AWS', 'DynamoDB', 'S3', 'EC2', 'NGINX', 'Tailwind'],
       companyUrl: 'https://india-jobs.in'
     },
     {
@@ -98,7 +98,7 @@ const portfolioData = {
 'Integrated Razorpay payments (Online & COD), JWT-based authentication with OTP verification, and automated email notifications using Nodemailer',
 'Converted the platform into a Progressive Web App using Capacitor, enabling single-codebase deployment for Web, iOS, and Android'
       ],
-      technologies: ['Next.js', 'Node.js', 'PWA', 'REST APIs', 'Express.js', 'Multer', 'Tailwind', 'Razorpay Integration', 'MongoDB', 'Cursor'],
+      technologies: ['Next.js', 'Node.js', 'PWA', 'REST APIs', 'Express.js', 'Tailwind', 'Razorpay Integration', 'MongoDB', 'Cursor'],
       companyUrl: 'https://biharinathorganicfarms.com'
     },
     {
@@ -114,7 +114,7 @@ const portfolioData = {
         'Improved AI-driven skill matching accuracy from 65% to 72% through text normalization',
         'Contributed to Agile development cycles with sprint planning and code reviews'
       ],
-      technologies: ['Next.js', 'Node.js', 'PWA', 'REST APIs', 'Express.js', 'Multer', 'Tailwind', 'Razorpay Integration', 'MongoDB', 'Cursor'],
+      technologies: ['Next.js', 'Node.js', 'REST APIs', 'Express.js', 'AWS'],
       companyUrl: 'https://intervue.io'
     }
   ],
