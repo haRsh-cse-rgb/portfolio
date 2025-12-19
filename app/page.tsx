@@ -99,7 +99,7 @@ const portfolioData = {
 'Converted the platform into a Progressive Web App using Capacitor, enabling single-codebase deployment for Web, iOS, and Android'
       ],
       technologies: ['Next.js', 'Node.js', 'PWA', 'REST APIs', 'Express.js', 'Multer', 'Tailwind', 'Razorpay Integration', 'MongoDB', 'Cursor'],
-      companyUrl: 'https://india-jobs.in'
+      companyUrl: 'https://biharinathorganicfarms.com'
     },
     {
       id: '4',
