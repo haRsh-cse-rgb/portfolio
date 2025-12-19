@@ -105,6 +105,7 @@ Continuous learning across system design, cloud, and AI
   { id: '37', category: 'Programming Languages', name: 'Python', order: 4 },
   { id: '38', category: 'AI & Tools', name: 'Cursor AI', order: 6 },
   { id: '39', category: 'AI & Tools', name: 'Perplexity', order: 7 },
+  { id: '40', category: 'Cloud & DevOps', name: 'AWS Lambda', order: 7 },
 ],
 
   experiences: [
