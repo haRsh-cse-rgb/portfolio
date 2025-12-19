@@ -103,7 +103,7 @@ Continuous learning across system design, cloud, and AI
   { id: '35', category: 'Programming Languages', name: 'JavaScript', order: 2 },
   { id: '36', category: 'Programming Languages', name: 'TypeScript', order: 3 },
   { id: '37', category: 'Programming Languages', name: 'Python', order: 4 }
-]
+],
 
   experiences: [
     {
