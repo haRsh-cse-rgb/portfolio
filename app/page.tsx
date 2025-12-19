@@ -120,14 +120,14 @@ const portfolioData = {
   ],
   education: [
     {
-      id: '3',
-      institution: 'Tender Heart Sr. Sec. School',
-      degree: '10th Grade (85.5%)',
-      field: 'Science',
-      startDate: '2016',
-      endDate: '2017',
-      location: 'India',
-      type: 'primary'
+      id: '1',
+      institution: 'Chandigarh University',
+      degree: 'Bachelor of Engineering (7.4 cgpa)',
+      field: 'Computer Science and Engineering',
+      startDate: 'September 2020',
+      endDate: 'May 2024',
+      location: 'Chandigarh, India',
+      type: 'university'
     },
     {
       id: '2',
@@ -140,15 +140,17 @@ const portfolioData = {
       type: 'secondary'
     },
     {
-      id: '1',
-      institution: 'Chandigarh University',
-      degree: 'Bachelor of Engineering (7.4 cgpa)',
-      field: 'Computer Science and Engineering',
-      startDate: 'September 2020',
-      endDate: 'May 2024',
-      location: 'Chandigarh, India',
-      type: 'university'
+      id: '3',
+      institution: 'Tender Heart Sr. Sec. School',
+      degree: '10th Grade (85.5%)',
+      field: 'Science',
+      startDate: '2016',
+      endDate: '2017',
+      location: 'India',
+      type: 'primary'
     }
+    
+    
   ],
   achievements: [
     {
