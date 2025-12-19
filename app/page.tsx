@@ -201,7 +201,12 @@ Continuous learning across system design, cloud, and AI
     { id: '1', name: 'React', issuer: 'Infowiz' },
     { id: '2', name: 'AWS Architecting', issuer: 'Amazon Web Services' },
     { id: '3', name: 'Software Testing', issuer: 'NPTEL' },
-    { id: '4', name: 'Generative AI', issuer: 'Google Cloud' }
+    { id: '4', name: 'Generative AI', issuer: 'Google Cloud' },
+    { id: '5', name: 'Machine Learning', issuer: 'Stanford University' },
+    { id: '6', name: 'Introduction To Cloud Computing', issuer: 'IBM' },
+    { id: '7', name: 'AWS cloud Technical Essentials', issuer: 'Coursera' },
+    { id: '8', name: 'Introduction To Agile Development & Scrum', issuer: 'Coursera' },
+    { id: '9', name: 'The Fundamentals of Digital Marketing', issuer: 'Google' },
   ]
 };
 
