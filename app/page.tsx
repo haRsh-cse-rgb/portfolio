@@ -109,7 +109,7 @@ const portfolioData = {
       startDate: 'November 2025',
       endDate: 'December 2025',
       description: [
-       'Built a full-stack e-commerce platform using Next.js, TypeScript, and MongoDB, implementing product management, cart, order processing, and an admin dashboard',
+       'Built a full-stack e-commerce platform using Next.js, TypeScript, and MongoDB, implementing product      management, cart, order processing, and an admin dashboard',
 'Integrated Razorpay payments (Online & COD), JWT-based authentication with OTP verification, and automated email notifications using Nodemailer',
 'Converted the platform into a Progressive Web App using Capacitor, enabling single-codebase deployment for Web, iOS, and Android'
       ],
