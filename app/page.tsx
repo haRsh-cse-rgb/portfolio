@@ -52,8 +52,8 @@ const portfolioData = {
       interests: 'Backend systems, scalable web apps, cloud architecture, Generative AI'
     },
     location: 'Bengaluru, India'
-  }
-},
+  },
+
 
  skills: [
   // Frontend
