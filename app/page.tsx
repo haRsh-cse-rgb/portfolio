@@ -107,6 +107,8 @@ const portfolioData = {
   { id: '38', category: 'AI & Tools', name: 'Cursor AI', order: 6 },
   { id: '39', category: 'AI & Tools', name: 'Perplexity', order: 7 },
   { id: '40', category: 'Cloud & DevOps', name: 'AWS Lambda', order: 7 },
+   { id: '41', category: 'Integrations', name: 'Open AI', order: 6 },
+   { id: '42', category: 'Integrations', name: 'Gemini API', order: 7 },
 ],
 
   experiences: [
