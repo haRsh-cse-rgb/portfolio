@@ -53,7 +53,7 @@ const portfolioData = {
     },
     location: 'Bengaluru, India'
   }
-};
+},
 
  skills: [
   // Frontend
