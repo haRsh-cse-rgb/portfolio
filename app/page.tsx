@@ -426,7 +426,7 @@ export default function Portfolio() {
         {/* Open To */}
         <div className="rounded-xl bg-gradient-to-r from-blue-50 to-cyan-50 p-6 border border-blue-100">
           <p className="text-slate-900 font-semibold">
-            📌 Open to:
+            
           </p>
           <p className="text-slate-700 mt-1">
             {profile.summary.openTo}
