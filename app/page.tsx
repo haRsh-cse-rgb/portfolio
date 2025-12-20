@@ -15,7 +15,8 @@ import {
   CheckCircle2,
   ChevronDown,
   Menu,
-  X
+  X,
+  Download
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -281,7 +282,7 @@ export default function Portfolio() {
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
 
-            <div className="hidden md:flex gap-8">
+            <div className="hidden md:flex gap-8 items-center">
               {['about', 'experience', 'skills', 'education', 'contact'].map((item) => (
                 <button
                   key={item}
@@ -291,6 +292,14 @@ export default function Portfolio() {
                   {item}
                 </button>
               ))}
+              <a
+                href="/resume.pdf"
+                download
+                className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-lg hover:shadow-lg transition-shadow text-sm font-medium"
+              >
+                <Download className="w-4 h-4" />
+                Resume
+              </a>
             </div>
           </div>
 
@@ -305,6 +314,14 @@ export default function Portfolio() {
                   {item}
                 </button>
               ))}
+              <a
+                href="/resume.pdf"
+                download
+                className="flex items-center gap-2 w-full px-4 py-2 rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 text-white hover:shadow-lg transition-shadow text-sm font-medium"
+              >
+                <Download className="w-4 h-4" />
+                Download Resume
+              </a>
             </div>
           )}
         </div>
