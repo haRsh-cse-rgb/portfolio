@@ -48,7 +48,7 @@ const portfolioData = {
         'Continuous learning across system design, cloud, and AI'
       ],
       
-      openTo: 'Software Engineer / Full Stack Developer / Backend Developer / Frontend Developer / SDET',
+      
       interests: 'Backend systems, scalable web apps, cloud architecture, Generative AI'
     },
     location: 'Bengaluru, India'
