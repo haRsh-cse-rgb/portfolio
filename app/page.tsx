@@ -293,7 +293,7 @@ export default function Portfolio() {
                 </button>
               ))}
               <a
-                href="/resume.pdf"
+                href="/resume_kumar_harsh.pdf"
                 download
                 className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-lg hover:shadow-lg transition-shadow text-sm font-medium"
               >
