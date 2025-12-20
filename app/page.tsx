@@ -30,31 +30,28 @@ const portfolioData = {
     phone: '+91 9572301358',
     linkedin: 'https://linkedin.com/in/kumar-harsh-b69035242',
     github: 'https://github.com/harsh-cse-rgb',
-    summary: {
-      intro: `I’m a Full Stack Software Engineer who enjoys building production-grade systems that scale, perform, and solve real problems.`,
-      
-      experience: `I’ve worked across startup and institutional environments, including Indian Institute of Science (IISc), Bengaluru, where I led end-to-end development of large-scale platforms used by 500+ real users, reducing manual operations by up to 90%.`,
-      
-      ownership: `From architecting backend systems to crafting intuitive frontends, I enjoy owning products from idea to deployment.`,
-      
-      ai: `I’ve been exploring Generative AI integrations—building AI-powered resume analysis, intelligent automation, and improving matching accuracy with a strong focus on reliability, fallback handling, and measurable impact.`,
-      
-      founder: `I’m also the Founder & Developer of india-jobs.in, where I built a high-performance job aggregation platform with sub-second APIs, AI-based resume insights, and scalable AWS infrastructure.`,
-      
-      drives: [
-        'Writing clean, maintainable code',
-        'Designing systems that scale under real load',
-        'Turning complex problems into simple, usable solutions',
-        'Continuous learning across system design, cloud, and AI'
-      ],
-      
-      openTo: 'Software Engineer / Full Stack Developer / Backend Developer / Frontend Developer / SDET',
-      interests: 'Backend systems, scalable web apps, cloud architecture, Generative AI'
-    },
+    summary: `I’m a Full Stack Software Engineer who enjoys building production-grade systems that scale, perform, and solve real problems.
+
+I’ve worked across startup and institutional environments, including Indian Institute of Science (IISc), Bengaluru, where I led end-to-end development of large-scale platforms used by 500+ real users, reducing manual operations by up to 90%. From architecting backend systems to crafting intuitive frontends, I like owning products from idea to deployment.
+
+Recently, I’ve been exploring Generative AI integrations—building AI-powered resume analysis, intelligent automation, and improving matching accuracy in real-world systems. I focus not just on using AI APIs, but on reliability, fallback handling, and measurable impact.
+
+I’m also the Founder & Developer of india-jobs.in, where I built a high-performance job aggregation platform with sub-second APIs, AI-based resume insights, and scalable AWS infrastructure.
+
+What drives me:
+
+Writing clean, maintainable code
+
+Designing systems that scale under real load
+
+Turning complex problems into simple, usable solutions
+
+Continuous learning across system design, cloud, and AI
+
+📌 Open to: Software Engineer / Full Stack Developer / Backend Developer / Frontend Developer / SDET roles
+📌 Interests: Backend systems, scalable web apps, cloud architecture, Generative AI`,
     location: 'Bengaluru, India'
   },
-
-
  skills: [
   // Frontend
   { id: '1', category: 'Frontend', name: 'React', order: 1 },
