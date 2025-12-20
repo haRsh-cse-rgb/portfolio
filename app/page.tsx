@@ -30,28 +30,31 @@ const portfolioData = {
     phone: '+91 9572301358',
     linkedin: 'https://linkedin.com/in/kumar-harsh-b69035242',
     github: 'https://github.com/harsh-cse-rgb',
-    summary: `I’m a Full Stack Software Engineer who enjoys building production-grade systems that scale, perform, and solve real problems.
-
-I’ve worked across startup and institutional environments, including Indian Institute of Science (IISc), Bengaluru, where I led end-to-end development of large-scale platforms used by 500+ real users, reducing manual operations by up to 90%. From architecting backend systems to crafting intuitive frontends, I like owning products from idea to deployment.
-
-Recently, I’ve been exploring Generative AI integrations—building AI-powered resume analysis, intelligent automation, and improving matching accuracy in real-world systems. I focus not just on using AI APIs, but on reliability, fallback handling, and measurable impact.
-
-I’m also the Founder & Developer of india-jobs.in, where I built a high-performance job aggregation platform with sub-second APIs, AI-based resume insights, and scalable AWS infrastructure.
-
-What drives me:
-
-Writing clean, maintainable code
-
-Designing systems that scale under real load
-
-Turning complex problems into simple, usable solutions
-
-Continuous learning across system design, cloud, and AI
-
-📌 Open to: Software Engineer / Full Stack Developer / Backend Developer / Frontend Developer / SDET roles
-📌 Interests: Backend systems, scalable web apps, cloud architecture, Generative AI`,
+    summary: {
+      intro: `I’m a Full Stack Software Engineer who enjoys building production-grade systems that scale, perform, and solve real problems.`,
+      
+      experience: `I’ve worked across startup and institutional environments, including Indian Institute of Science (IISc), Bengaluru, where I led end-to-end development of large-scale platforms used by 500+ real users, reducing manual operations by up to 90%.`,
+      
+      ownership: `From architecting backend systems to crafting intuitive frontends, I enjoy owning products from idea to deployment.`,
+      
+      ai: `I’ve been exploring Generative AI integrations—building AI-powered resume analysis, intelligent automation, and improving matching accuracy with a strong focus on reliability, fallback handling, and measurable impact.`,
+      
+      founder: `I’m also the Founder & Developer of india-jobs.in, where I built a high-performance job aggregation platform with sub-second APIs, AI-based resume insights, and scalable AWS infrastructure.`,
+      
+      drives: [
+        'Writing clean, maintainable code',
+        'Designing systems that scale under real load',
+        'Turning complex problems into simple, usable solutions',
+        'Continuous learning across system design, cloud, and AI'
+      ],
+      
+      openTo: 'Software Engineer / Full Stack Developer / Backend Developer / Frontend Developer / SDET',
+      interests: 'Backend systems, scalable web apps, cloud architecture, Generative AI'
+    },
     location: 'Bengaluru, India'
-  },
+  }
+};
+
  skills: [
   // Frontend
   { id: '1', category: 'Frontend', name: 'React', order: 1 },
@@ -359,22 +362,89 @@ export default function Portfolio() {
         </div>
       </section>
 
-      <section id="about" className="py-24 px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">About Me</h2>
-            <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto"></div>
-          </div>
+      <section id="about" className="py-24 px-6 bg-slate-50">
+  <div className="max-w-5xl mx-auto">
+    
+    {/* Heading */}
+    <div className="text-center mb-16">
+      <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+        About Me
+      </h2>
+      <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto rounded-full"></div>
+    </div>
 
-          <Card className="border-2 shadow-xl hover:shadow-2xl transition-shadow duration-300">
-            <CardContent className="p-8 md:p-12">
-              <div className="text-base md:text-lg text-slate-700 leading-relaxed whitespace-pre-wrap break-words">
-                {profile.summary}
-              </div>
-            </CardContent>
-          </Card>
+    <Card className="border border-slate-200 shadow-xl hover:shadow-2xl transition-all duration-300 bg-white">
+      <CardContent className="p-8 md:p-12 space-y-8">
+
+        {/* Intro */}
+        <p className="text-lg md:text-xl text-slate-800 font-medium">
+          👋 {profile.summary.intro}
+        </p>
+
+        {/* Experience */}
+        <p className="text-base md:text-lg text-slate-700 leading-relaxed">
+          🏢 <span className="font-semibold text-slate-900">Experience:</span>{' '}
+          {profile.summary.experience}
+        </p>
+
+        {/* Ownership */}
+        <p className="text-base md:text-lg text-slate-700 leading-relaxed">
+          🧩 <span className="font-semibold text-slate-900">Product Ownership:</span>{' '}
+          {profile.summary.ownership}
+        </p>
+
+        {/* AI */}
+        <p className="text-base md:text-lg text-slate-700 leading-relaxed">
+          🤖 <span className="font-semibold text-slate-900">Generative AI:</span>{' '}
+          {profile.summary.ai}
+        </p>
+
+        {/* Founder */}
+        <p className="text-base md:text-lg text-slate-700 leading-relaxed">
+          🚀 <span className="font-semibold text-slate-900">Founder Experience:</span>{' '}
+          {profile.summary.founder}
+        </p>
+
+        {/* Divider */}
+        <div className="h-px bg-slate-200"></div>
+
+        {/* What Drives Me */}
+        <div>
+          <h3 className="text-xl font-semibold text-slate-900 mb-4">
+            💡 What Drives Me
+          </h3>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-slate-700">
+            {profile.summary.drives.map((item, index) => (
+              <li key={index} className="flex items-start gap-2">
+                <span className="text-blue-500 mt-1">✔</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
         </div>
-      </section>
+
+        {/* Open To */}
+        <div className="rounded-xl bg-gradient-to-r from-blue-50 to-cyan-50 p-6 border border-blue-100">
+          <p className="text-slate-900 font-semibold">
+            📌 Open to:
+          </p>
+          <p className="text-slate-700 mt-1">
+            {profile.summary.openTo}
+          </p>
+
+          <p className="text-slate-900 font-semibold mt-4">
+            🎯 Interests:
+          </p>
+          <p className="text-slate-700">
+            {profile.summary.interests}
+          </p>
+        </div>
+
+      </CardContent>
+    </Card>
+  </div>
+</section>
+
 
       <section id="experience" className="py-24 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto">
