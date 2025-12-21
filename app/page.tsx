@@ -71,7 +71,7 @@ const portfolioData = {
   { id: '11', category: 'Backend', name: 'Express.js', order: 5 },
   { id: '12', category: 'Backend', name: 'REST APIs', order: 6 },
   { id: '13', category: 'Backend', name: 'JWT Authentication', order: 7 },
-  { id: '14', category: 'Backend', name: 'WebSockets (STOMP)', order: 8 },
+  { id: '14', category: 'Backend', name: 'WebSockets', order: 8 },
 
   // Databases
   { id: '15', category: 'Databases', name: 'MongoDB', order: 1 },
@@ -84,7 +84,7 @@ const portfolioData = {
   { id: '20', category: 'Cloud & DevOps', name: 'AWS CloudFront', order: 3 },
   { id: '21', category: 'Cloud & DevOps', name: 'AWS CloudWatch', order: 4 },
   { id: '22', category: 'Cloud & DevOps', name: 'Docker', order: 5 },
-  { id: '23', category: 'Cloud & DevOps', name: 'NGINX (Reverse Proxy)', order: 6 },
+  { id: '23', category: 'Cloud & DevOps', name: 'NGINX ', order: 6 },
 
   // Integrations & Platforms
   { id: '24', category: 'Integrations', name: 'Razorpay Payments', order: 1 },
@@ -98,7 +98,7 @@ const portfolioData = {
   { id: '30', category: 'AI & Tools', name: 'Google Gemini APIs', order: 2 },
   { id: '31', category: 'AI & Tools', name: 'LangChain', order: 3 },
   { id: '32', category: 'AI & Tools', name: 'Prompt Engineering', order: 4 },
-  { id: '33', category: 'AI & Tools', name: 'AI Resume Parsing & Matching', order: 5 },
+  { id: '33', category: 'AI & Tools', name: 'LLM Integrations', order: 5 },
 
   // Programming Languages
   { id: '34', category: 'Programming Languages', name: 'Java', order: 1 },
@@ -110,6 +110,7 @@ const portfolioData = {
   { id: '40', category: 'Cloud & DevOps', name: 'AWS Lambda', order: 7 },
    { id: '41', category: 'Integrations', name: 'Open AI', order: 6 },
    { id: '42', category: 'Integrations', name: 'Gemini API', order: 7 },
+   { id: '43', category: 'AI & Tools', name: 'Agentic AI', order: 8 },
 ],
 
   experiences: [
@@ -445,9 +446,7 @@ export default function Portfolio() {
           <p className="text-slate-900 font-semibold">
             
           </p>
-          <p className="text-slate-700 mt-1">
-            {profile.summary.openTo}
-          </p>
+          
 
           <p className="text-slate-900 font-semibold mt-4">
             🎯 Interests:
