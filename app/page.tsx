@@ -111,6 +111,7 @@ const portfolioData = {
    { id: '41', category: 'Integrations', name: 'Open AI', order: 6 },
    { id: '42', category: 'Integrations', name: 'Gemini API', order: 7 },
    { id: '43', category: 'AI & Tools', name: 'Agentic AI', order: 8 },
+   { id: '44', category: 'AI & Tools', name: 'RAG', order: 9 },
 ],
 
   experiences: [
